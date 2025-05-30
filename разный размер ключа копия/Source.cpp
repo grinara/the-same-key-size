@@ -71,15 +71,22 @@ void main() {
 	cdelatK1(K1);
 	string key_tr;
 	int nad;
+	int n;//размерность матрицы
 	cout << "¬ведите ключ" << endl;
 	cin >> key_tr;
 	cout << "¬ведите количество матриц" << endl;
 	cin >> nad;
+	cout << "¬ведите размерность матриц" << endl;
+	cin >> n;
 	int S[100] = { 0 };
 	//int M[10][10] = {0};
-	int K[10][10] = { 0 };
+	//int K[10][10] = { 0 };
+	int** K = new int* [n];
+	for (int i = 0; i < n; ++i) {
+		K[i] = new int[n];
+	}
 	int k = 0;
-	int n = 7;//размерность матрицы
+	//int n = 7;//размерность матрицы
 	int m = 97;//число символов в алфавите
 	int p = key_tr.size();// количество символов в строке
 	for (int i = 0; i < p; i++) { S[i] = key_tr[i]; }//по правилу 30
