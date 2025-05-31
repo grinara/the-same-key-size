@@ -52,7 +52,10 @@ void main() {
 	string key_tr;
 	int nad;
 	int n;//размерность матрицы
-	cout << "Введите ключ" << endl;
+	cout << "Алфавит" << endl;
+	for (int i = 32; i < 127; i++) { cout << char(i) << " "; }
+	cout << endl;
+	cout << "Введите ключ(без пробелов)" << endl;
 	cin >> key_tr;
 	cout << "Введите количество матриц" << endl;
 	cin >> nad;
