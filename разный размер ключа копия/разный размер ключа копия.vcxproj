@@ -24,7 +24,7 @@
     <ProjectGuid>{efe5b4ee-1bf1-4538-8847-e0e16b908e87}</ProjectGuid>
     <RootNamespace>разныйразмерключакопия</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>одинаковый  размер ключа копия</ProjectName>
+    <ProjectName>max min final</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
